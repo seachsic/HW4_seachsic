@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>Портфоліо</title>
+    <title>Студія</title>
   </head>
   <body class="body">
     <header class="header">
@@ -24,18 +24,22 @@
       <nav class="navigation">
         <a href="/" class="web"><span class="webt">Web</span>Studio</a>
         <ul class="headerlist">
-          <li><a href="./index.html" class="studio">Студія</a></li>
-          <li><a href="" class="port current">Портфоліо</a></li>
-          <li><a href="" class="cont">Контакти</a></li>
+          <li class="nav-item"><a href="./index.html" class="studio">Студія</a></li>
+          <li class="nav-item"><a href="./portfolio.html" class="port current">Портфоліо</a></li>
+          <li class="nav-item"><a href="" class="cont">Контакти</a></li>
         </ul>
       </nav>
       <ul class="info">
-        <li>
+        <li class="nav-item">
           <a href="mailto:info@devstudio.com" class="mail"
-            >info@devstudio.com</a
+            ><svg width="16" height="12">
+              <use href="./images/icons.svg#mail"></use>
+            </svg> info@devstudio.com</a
           >
         </li>
-        <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+        <li class="nav-item"><a href="tel:+380961111111" class="tel"><svg width="16" height="12">
+          <use href="./images/icons.svg#tel"></use>
+        </svg>+38 096 111 11 11</a></li>
       </ul>
       </div>
     </header>
@@ -142,8 +146,8 @@
 
     <footer class="footer">
       <div class="container footer-container">
-      <a href="" class="footer-web"><span class="webt">Web</span>Studio</a>
       <address class="footer-address">
+        <a href="" class="footer-web"><span class="webt">Web</span>Studio</a>
         <ul class="footer-nav">
           <li class="footer-text">
             <a
@@ -154,16 +158,58 @@
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li>
+          <li class="footer-text">
             <a href="mailto:info@devstudio.com" class="footer-mail"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="footer-text">
             <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
+      <div class="footer-cont">
+        <h3 class="footer-title">приєднуйтесь</h3>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="https://www.instagram.com"
+              rel="noreferrer nooppener nofollow"
+              target="_blank">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="https://www.twitter.com"
+              rel="noreferrer nooppener nofollow"
+              target="_blank">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="https://www.facebook.com"
+              rel="noreferrer nooppener nofollow"
+              target="_blank">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="https://www.linkedin.com"
+              rel="noreferrer nooppener nofollow"
+              target="_blank">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        
+      </div>
       </div>
     </footer>
   </body>
