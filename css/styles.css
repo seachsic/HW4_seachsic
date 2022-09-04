@@ -445,6 +445,10 @@ img {
   display: flex;
   padding: 0;
   gap: 30px;
+}
+
+.clients-cont {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
